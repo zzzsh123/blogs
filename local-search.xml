@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>AnAntSubwayTrip</title>
+    <link href="/2020/09/02/AnAntSubwayTrip/"/>
+    <url>/2020/09/02/AnAntSubwayTrip/</url>
+    
+    <content type="html"><![CDATA[<p><img src="img/AnAntSubwayTrip/1" alt="avatar"></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>百度人脸识别api使用</title>
+    <link href="/2020/08/31/%E7%99%BE%E5%BA%A6%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%ABapi%E4%BD%BF%E7%94%A8/"/>
+    <url>/2020/08/31/%E7%99%BE%E5%BA%A6%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%ABapi%E4%BD%BF%E7%94%A8/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>api</tag>
+      
+      <tag>java</tag>
+      
+      <tag>makrdown</tag>
+      
+      <tag>baidu</tag>
+      
+      <tag>springboot</tag>
+      
+      <tag>base64</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>skiptohttps</title>
+    <link href="/2020/08/31/skiptohttps/"/>
+    <url>/2020/08/31/skiptohttps/</url>
+    
+    <content type="html"><![CDATA[<h2 id="nginx强制http跳转https"><a href="#nginx强制http跳转https" class="headerlink" title="nginx强制http跳转https"></a>nginx强制http跳转https</h2><h4 id="nginx在http请求时，跳转到index-html"><a href="#nginx在http请求时，跳转到index-html" class="headerlink" title="nginx在http请求时，跳转到index.html"></a>nginx在http请求时，跳转到index.html</h4><h4 id="在nginx-conf中将原先server下location修改为跳转到index-html或index-htm"><a href="#在nginx-conf中将原先server下location修改为跳转到index-html或index-htm" class="headerlink" title="在nginx.conf中将原先server下location修改为跳转到index.html或index.htm"></a>在nginx.conf中将原先server下location修改为跳转到index.html或index.htm</h4><h4 id="访问index-html后会跳转到https-xxx-xxx-xxx-xxx这个网址还真有，建议不要访问"><a href="#访问index-html后会跳转到https-xxx-xxx-xxx-xxx这个网址还真有，建议不要访问" class="headerlink" title="访问index.html后会跳转到https://xxx.xxx(xxx.xxx这个网址还真有，建议不要访问)"></a>访问index.html后会跳转到<a href="https://xxx.xxx(xxx.xxx这个网址还真有,建议不要访问)/">https://xxx.xxx(xxx.xxx这个网址还真有，建议不要访问)</a></h4><pre><code class="hljs n1ql">location / &#123;            <span class="hljs-keyword">index</span> <span class="hljs-keyword">index</span>.html <span class="hljs-keyword">index</span>.htm;            root /usr/local/nginx/<span class="hljs-keyword">index</span>/;         &#125;</code></pre><h4 id="root目录下存放index-html-如果没有就新建。"><a href="#root目录下存放index-html-如果没有就新建。" class="headerlink" title="root目录下存放index.html,如果没有就新建。"></a>root目录下存放index.html,如果没有就新建。</h4><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>  <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">http-equiv</span>=<span class="hljs-string">&quot;refresh&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;0;url=https://xxx.xxx/&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>ningx</tag>
+      
+      <tag>http</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>渣语</title>
+    <link href="/2020/08/28/zha/"/>
+    <url>/2020/08/28/zha/</url>
+    
+    <content type="html"><![CDATA[<h4 id="我也想和xx哥玩游戏"><a href="#我也想和xx哥玩游戏" class="headerlink" title="我也想和xx哥玩游戏"></a>我也想和xx哥玩游戏</h4><h4 id="你压根就不爱我。"><a href="#你压根就不爱我。" class="headerlink" title="你压根就不爱我。"></a>你压根就不爱我。</h4><h4 id="还别说，那个时候对你真有感情"><a href="#还别说，那个时候对你真有感情" class="headerlink" title="还别说，那个时候对你真有感情"></a>还别说，那个时候对你真有感情</h4><h4 id="我就脑壳子愁啊"><a href="#我就脑壳子愁啊" class="headerlink" title="我就脑壳子愁啊"></a>我就脑壳子愁啊</h4><h4 id="我一心都在xx身上"><a href="#我一心都在xx身上" class="headerlink" title="我一心都在xx身上"></a>我一心都在xx身上</h4><h4 id="我就蹭蹭你不进去"><a href="#我就蹭蹭你不进去" class="headerlink" title="我就蹭蹭你不进去"></a>我就蹭蹭你不进去</h4><h4 id="睡午觉了，我会想你的"><a href="#睡午觉了，我会想你的" class="headerlink" title="睡午觉了，我会想你的"></a>睡午觉了，我会想你的</h4><h4 id="我来给你全身都洗了"><a href="#我来给你全身都洗了" class="headerlink" title="我来给你全身都洗了"></a>我来给你全身都洗了</h4><h4 id="我从来没有过"><a href="#我从来没有过" class="headerlink" title="我从来没有过"></a>我从来没有过</h4><h4 id="一方水-养一方人"><a href="#一方水-养一方人" class="headerlink" title="一方水,养一方人"></a>一方水,养一方人</h4><h4 id="她主动的，我没办法"><a href="#她主动的，我没办法" class="headerlink" title="她主动的，我没办法"></a>她主动的，我没办法</h4><h4 id="我没有桃花-我只有你"><a href="#我没有桃花-我只有你" class="headerlink" title="我没有桃花,我只有你"></a>我没有桃花,我只有你</h4><h4 id="pp太高，身子向下。"><a href="#pp太高，身子向下。" class="headerlink" title="pp太高，身子向下。"></a>pp太高，身子向下。</h4><h4 id="手速这么快。"><a href="#手速这么快。" class="headerlink" title="手速这么快。"></a>手速这么快。</h4><h4 id="想牵你手。"><a href="#想牵你手。" class="headerlink" title="想牵你手。"></a>想牵你手。</h4><h4 id="我是这种人吗"><a href="#我是这种人吗" class="headerlink" title="我是这种人吗?"></a>我是这种人吗?</h4><h4 id="你们就是我爱情路上的拦路虎。"><a href="#你们就是我爱情路上的拦路虎。" class="headerlink" title="你们就是我爱情路上的拦路虎。"></a>你们就是我爱情路上的拦路虎。</h4><h4 id="秀-不可能-我们甜甜的聊天是不可能发给你们的"><a href="#秀-不可能-我们甜甜的聊天是不可能发给你们的" class="headerlink" title="秀?不可能!我们甜甜的聊天是不可能发给你们的."></a>秀?不可能!我们甜甜的聊天是不可能发给你们的.</h4><h4 id="女的喷的多"><a href="#女的喷的多" class="headerlink" title="女的喷的多."></a>女的喷的多.</h4><h4 id="宝宝，你说得对。"><a href="#宝宝，你说得对。" class="headerlink" title="宝宝，你说得对。"></a>宝宝，你说得对。</h4>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>渣</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
