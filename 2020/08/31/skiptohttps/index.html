@@ -29,7 +29,10 @@
 
   
     
-    <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.0.0/styles/atelier-dune-dark.min.css" />
+    
+      
+      <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.0.0/styles/github-gist.min.css" />
+    
   
 
   
@@ -37,11 +40,11 @@
 
 <!-- 主题依赖的图标库，不要自行修改 -->
 
-<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_6peoq002giu.css">
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_pf9vaxs7x7b.css">
 
 
 
-<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_pjno9b9zyxs.css">
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
 
 
 <link  rel="stylesheet" href="/css/main.css" />
@@ -159,14 +162,17 @@
             </span>
 
             
-              
-  <div class="mt-3 post-meta">
-    <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-    <time datetime="2020-08-31 16:27" pubdate>
-      2020年8月31日 下午
-    </time>
-  </div>
-
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2020-08-31 16:27" pubdate>
+        2020年8月31日 下午
+      </time>
+    </span>
+  
+</div>
 
 <div class="mt-1">
   
@@ -230,13 +236,13 @@
               </p>
             
             <div class="markdown-body" id="post-body">
-              <h2 id="nginx强制http跳转https"><a href="#nginx强制http跳转https" class="headerlink" title="nginx强制http跳转https"></a>nginx强制http跳转https</h2><h4 id="nginx在http请求时，跳转到index-html"><a href="#nginx在http请求时，跳转到index-html" class="headerlink" title="nginx在http请求时，跳转到index.html"></a>nginx在http请求时，跳转到index.html</h4><h4 id="在nginx-conf中将原先server下location修改为跳转到index-html或index-htm"><a href="#在nginx-conf中将原先server下location修改为跳转到index-html或index-htm" class="headerlink" title="在nginx.conf中将原先server下location修改为跳转到index.html或index.htm"></a>在nginx.conf中将原先server下location修改为跳转到index.html或index.htm</h4><h4 id="访问index-html后会跳转到https-xxx-xxx-xxx-xxx这个网址还真有，建议不要访问"><a href="#访问index-html后会跳转到https-xxx-xxx-xxx-xxx这个网址还真有，建议不要访问" class="headerlink" title="访问index.html后会跳转到https://xxx.xxx(xxx.xxx这个网址还真有，建议不要访问)"></a>访问index.html后会跳转到<a target="_blank" rel="noopener" href="https://xxx.xxx(xxx.xxx这个网址还真有,建议不要访问)/">https://xxx.xxx(xxx.xxx这个网址还真有，建议不要访问)</a></h4><div class="hljs"><pre><code class="hljs n1ql">location / &#123;
+              <h2 id="nginx强制http跳转https"><a href="#nginx强制http跳转https" class="headerlink" title="nginx强制http跳转https"></a>nginx强制http跳转https</h2><h4 id="nginx在http请求时，跳转到index-html"><a href="#nginx在http请求时，跳转到index-html" class="headerlink" title="nginx在http请求时，跳转到index.html"></a>nginx在http请求时，跳转到index.html</h4><h4 id="在nginx-conf中将原先server下location修改为跳转到index-html或index-htm"><a href="#在nginx-conf中将原先server下location修改为跳转到index-html或index-htm" class="headerlink" title="在nginx.conf中将原先server下location修改为跳转到index.html或index.htm"></a>在nginx.conf中将原先server下location修改为跳转到index.html或index.htm</h4><h4 id="访问index-html后会跳转到https-xxx-xxx-xxx-xxx这个网址还真有，建议不要访问"><a href="#访问index-html后会跳转到https-xxx-xxx-xxx-xxx这个网址还真有，建议不要访问" class="headerlink" title="访问index.html后会跳转到https://xxx.xxx(xxx.xxx这个网址还真有，建议不要访问)"></a>访问index.html后会跳转到<a target="_blank" rel="noopener" href="https://xxx.xxx(xxx.xxx这个网址还真有,建议不要访问)/">https://xxx.xxx(xxx.xxx这个网址还真有，建议不要访问)</a></h4><pre><code class="hljs n1ql">location / &#123;
             <span class="hljs-keyword">index</span> <span class="hljs-keyword">index</span>.html <span class="hljs-keyword">index</span>.htm;
             root /usr/local/nginx/<span class="hljs-keyword">index</span>/; 
-        &#125;</code></pre></div>
-<h4 id="root目录下存放index-html-如果没有就新建。"><a href="#root目录下存放index-html-如果没有就新建。" class="headerlink" title="root目录下存放index.html,如果没有就新建。"></a>root目录下存放index.html,如果没有就新建。</h4><div class="hljs"><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>  
+        &#125;</code></pre>
+<h4 id="root目录下存放index-html-如果没有就新建。"><a href="#root目录下存放index-html-如果没有就新建。" class="headerlink" title="root目录下存放index.html,如果没有就新建。"></a>root目录下存放index.html,如果没有就新建。</h4><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>  
 <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">http-equiv</span>=<span class="hljs-string">&quot;refresh&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;0;url=https://xxx.xxx/&quot;</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre></div>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
 
 
             </div>
@@ -424,6 +430,10 @@
 
   
     <script  src="/js/lazyload.js" ></script>
+  
+
+
+
   
 
 
@@ -649,8 +659,6 @@
         s.parentNode.insertBefore(mta, s);
       })();
     </script>
-  
-
   
 
   
