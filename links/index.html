@@ -149,6 +149,14 @@
             </span>
 
             
+    	      <br>
+	      <span class="h2" id="hitokoto">
+    	        
+	      </span>
+	    
+
+
+            
           </div>
 
           
@@ -339,20 +347,30 @@
 
   <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
   <script>
-    var typed = new Typed('#subtitle', {
-      strings: [
-        '  ',
-        "友情链接&nbsp;",
-      ],
-      cursorChar: "_",
-      typeSpeed: 70,
-      loop: false,
-    });
-    typed.stop();
-    $(document).ready(function () {
-      $(".typed-cursor").addClass("h2");
-      typed.start();
-    });
+    function typing(id, title){
+        var typed = new Typed('#' + id, {
+            strings: [
+              '  ',
+              title + "&nbsp;",
+            ],
+            cursorChar: "_",
+            typeSpeed: 70,
+            loop: false,
+        });
+        typed.stop();
+        $(document).ready(function () {
+            $(".typed-cursor").addClass("h2");
+            typed.start();
+        });
+    }
+    
+        fetch('https://v1.hitokoto.cn')
+        .then(response => response.json())
+        .then(data => {
+           typing("hitokoto", data.hitokoto)
+        })
+        .catch(console.error)
+    
   </script>
 
 
